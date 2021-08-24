@@ -8,25 +8,31 @@ module.exports = {
         {
           name: "customer",
           email: "customer@gmail.com",
-          password: "123",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
           createdAt: "2021-06-10 21:30:35",
           updatedAt: "2021-06-10 21:30:35",
         },
         {
           name: "admin",
           email: "admin@gmail.com",
-          password: "123",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
           createdAt: "2021-06-10 21:30:35",
           updatedAt: "2021-06-10 21:30:35",
         },
         {
           name: "thang",
           email: "thang@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -35,7 +41,9 @@ module.exports = {
         {
           name: "tuan",
           email: "tuan@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -44,7 +52,9 @@ module.exports = {
         {
           name: "thanh",
           email: "thanh@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -53,7 +63,9 @@ module.exports = {
         {
           name: "cuong",
           email: "cuong@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -62,7 +74,9 @@ module.exports = {
         {
           name: "hoang",
           email: "hoang@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -71,7 +85,9 @@ module.exports = {
         {
           name: "man",
           email: "man@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -80,7 +96,9 @@ module.exports = {
         {
           name: "tu",
           email: "tu@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
@@ -89,7 +107,9 @@ module.exports = {
         {
           name: "tam",
           email: "tam@gmail.com",
-          password: "123",
+          avatar: "localhost:3000/public/images/avatar/default.jpg",
+          password:
+            "$2a$10$tznqP7U8bHV6qci9/l9aJOmA1fbt71fnV43EY2SXMlfGT0WFgTTEW",
           phone: "0900",
           age: "14",
           createdAt: "2021-06-10 21:30:35",
