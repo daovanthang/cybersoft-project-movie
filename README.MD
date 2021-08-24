@@ -239,4 +239,4 @@ body form-data : type file variable: avatar
 upload poster cho movie
 http://localhost:3000/api/movies/upload-poster
 authen Header: token - ...
-body form-data : type file variable: poster, type text variable: movieId:
+body form-data : type file variable: poster, type text variable: idMovie:
