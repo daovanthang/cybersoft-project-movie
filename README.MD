@@ -4,6 +4,7 @@ query getDetailUser {
     id
     name
     email
+	avatar
     roles {
       id
       roleName
@@ -31,6 +32,7 @@ query getUserList {
     phone
     age
     email
+	avatar
     roles {
       id
       roleName
@@ -229,3 +231,12 @@ localhost:3000/api/auth/sign-in ( login)
    "email":"customer@gmail.com",
     "password":"123"
 }
+upload avatar:
+localhost:3000/api/users/upload-avatar
+authen Header: token - ...
+body form-data : type file variable: avatar
+
+upload poster cho movie
+http://localhost:3000/api/movies/upload-poster
+authen Header: token - ...
+body form-data : type file variable: poster, type text variable: movieId:
