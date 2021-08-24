@@ -1,0 +1,25 @@
+npx sequelize init  //  khoi tao file config
+npx sequelize db:create
+npx sequelize model:generate --name User --attributes name:string,email:string,password:String,phone:String,age:integer => create model, mirgate
+npx sequelize model:generate --name Role --attributes roleName:string,description:string => create model, mirgate
+npx sequelize model:generate --name UserRole --attributes userId:integer,roleId:integer => create model, mirgate
+npx sequelize model:generate --name Cinema --attributes name:string,address:string,image:string,cineplexId:integer => create model, mirgate
+npx sequelize model:generate --name cineplex --attributes codeCineplex:string,name:string,logo:string,aliase:string => create model, mirgate
+npx sequelize model:generate --name Movie --attributes name:string,startDate:date,time:integer,evaluate:integer,poster:string,trailer:string => create model, mirgate
+npx sequelize model:generate --name Ticket --attributes userId:integer,movieId:integer  => create model, mirgate
+npx sequelize model:generate --name CinemaMovie --attributes cinemaId:integer,movieId:integer => create model, mirgate
+npx sequelize model:generate --name ShowTime --attributes startTime:date,cinemaId:integer => create model, mirgate
+npx sequelize model:generate --name Seat --attributes name:string,status:tinyint,price:integer,type:string,showTimeId:integer => create model, mirgate
+npx sequelize migration:create --name AddConstraintToComment
+
+npx sequelize db:migrate : excute db depend != npx sequelize db:migrate:undo
+
+//insert data to db (fake)
+npx sequelize seed:generate --name create-fake-users
+npx sequelize seed:generate --name create-fake-roles
+npx sequelize seed:generate --name create-fake-cineplexs
+npx sequelize seed:generate --name create-fake-Cinemas
+npx sequelize seed:generate --name create-fake-Userroles
+
+
+npx sequelize db:seed:all != sequelize db:seed:undo:all 
